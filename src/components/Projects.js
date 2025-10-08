@@ -10,8 +10,8 @@ const mockProjects = [
     id: 1,
     name: "personal-portfolio",
     description: "Modern responsive portfolio website built with Next.js and Framer Motion. Features dark/light themes, animations, and working contact form.",
-    html_url: "https://github.com/ADITYAJAIN912/my-portfolio",
-    homepage: "#",
+    html_url: "https://github.com/ADITYAJAIN912/portfolio",
+    homepage: "https://portfolio-red-nine-72.vercel.app/",
     techStack: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
   },
   {
