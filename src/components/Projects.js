@@ -4,46 +4,46 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Github, ExternalLink, Code, Zap, Sparkles } from "lucide-react";
 
+// React projects for student portfolio
+const mockProjects = [
+  {
+    id: 1,
+    name: "personal-portfolio",
+    description: "Modern responsive portfolio website built with Next.js and Framer Motion. Features dark/light themes, animations, and working contact form.",
+    html_url: "https://github.com/ADITYAJAIN912/my-portfolio",
+    homepage: "#",
+    techStack: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+  },
+  {
+    id: 2,
+    name: "Quiz",
+    description: "Interactive quiz application built with React. Features multiple choice questions, score tracking, and timer functionality.",
+    html_url: "https://github.com/ADITYAJAIN912/Quiz",
+    homepage: "#",
+    techStack: ["React", "JavaScript", "CSS", "HTML"],
+  },
+  {
+    id: 3,
+    name: "Slider",
+    description: "Responsive image slider component built with React. Includes navigation arrows, dots indicator, and smooth transitions.",
+    html_url: "https://github.com/ADITYAJAIN912/Silder",
+    homepage: "#",
+    techStack: ["React", "JavaScript", "CSS", "HTML"],
+  },
+  {
+    id: 4,
+    name: "todo-app",
+    description: "Simple todo application built with React. Features add, edit, delete tasks with local storage for data persistence.",
+    html_url: "https://github.com/ADITYAJAIN912/todo-app",
+    homepage: "#",
+    techStack: ["React", "JavaScript", "CSS", "HTML"],
+  },
+];
+
 const Projects = () => {
   const [repos, setRepos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedProject, setSelectedProject] = useState(null);
-
-  // React projects for student portfolio
-  const mockProjects = [
-    {
-      id: 1,
-      name: "personal-portfolio",
-      description: "Modern responsive portfolio website built with Next.js and Framer Motion. Features dark/light themes, animations, and working contact form.",
-      html_url: "https://github.com/ADITYAJAIN912/my-portfolio",
-      homepage: "#",
-      techStack: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
-    },
-    {
-      id: 2,
-      name: "Quiz",
-      description: "Interactive quiz application built with React. Features multiple choice questions, score tracking, and timer functionality.",
-      html_url: "https://github.com/ADITYAJAIN912/Quiz",
-      homepage: "#",
-      techStack: ["React", "JavaScript", "CSS", "HTML"],
-    },
-    {
-      id: 3,
-      name: "Slider",
-      description: "Responsive image slider component built with React. Includes navigation arrows, dots indicator, and smooth transitions.",
-      html_url: "https://github.com/ADITYAJAIN912/Silder",
-      homepage: "#",
-      techStack: ["React", "JavaScript", "CSS", "HTML"],
-    },
-    {
-      id: 4,
-      name: "todo-app",
-      description: "Simple todo application built with React. Features add, edit, delete tasks with local storage for data persistence.",
-      html_url: "https://github.com/ADITYAJAIN912/todo-app",
-      homepage: "#",
-      techStack: ["React", "JavaScript", "CSS", "HTML"],
-    },
-  ];
 
   useEffect(() => {
     // Simulate API loading
@@ -53,7 +53,7 @@ const Projects = () => {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [mockProjects]);
+  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },

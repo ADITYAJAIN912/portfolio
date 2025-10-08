@@ -89,7 +89,7 @@ const About = () => {
             {/* About Text */}
             <motion.div variants={itemVariants} className="space-y-6">
               <h3 className="text-2xl font-semibold text-foreground mb-6">
-                Hi there! I'm Aditya
+                Hi there! I&apos;m Aditya
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
