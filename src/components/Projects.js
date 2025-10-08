@@ -159,7 +159,7 @@ const Projects = () => {
               My Projects
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Here are some projects I've built during my learning journey. Each one taught me something new!
+              Here are some projects I&apos;ve built during my learning journey. Each one taught me something new!
             </p>
           </motion.div>
 
