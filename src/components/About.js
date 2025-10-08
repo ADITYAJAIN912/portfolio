@@ -93,12 +93,12 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a second-year B.Tech student at SRMIST, Chennai, specializing in Computer Science Engineering with Cloud Computing. 
+                  I&apos;m a second-year B.Tech student at SRMIST, Chennai, specializing in Computer Science Engineering with Cloud Computing. 
                   My coding journey began with curiosity about how websites and applications work, and it quickly grew into a genuine passion 
                   for creating digital solutions.
                 </p>
                 <p>
-                  Currently, I'm building a strong foundation in web development technologies - HTML, CSS, JavaScript, and React. 
+                  Currently, I&apos;m building a strong foundation in web development technologies - HTML, CSS, JavaScript, and React. 
                   I enjoy working on practical projects like quiz applications, image sliders, and todo apps that help me understand 
                   core programming concepts and user interface design.
                 </p>
@@ -197,7 +197,7 @@ const About = () => {
           {/* Learning Goals */}
           <motion.div variants={itemVariants} className="mt-20">
             <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
-              What I'm Working On Next
+              What I&apos;m Working On Next
             </h3>
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

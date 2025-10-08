@@ -170,7 +170,7 @@ const Contact = () => {
               Get In Touch
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I'm always interested in new opportunities and exciting projects. Whether you have a question,
+              I&apos;m always interested in new opportunities and exciting projects. Whether you have a question,
               want to collaborate, or just want to say hi, feel free to reach out!
             </p>
           </motion.div>
@@ -183,7 +183,7 @@ const Contact = () => {
                   className="text-2xl font-semibold text-foreground mb-6"
                   whileHover={{ x: 5 }}
                 >
-                  Let's Connect
+                  Let&apos;s Connect
                 </motion.h3>
                 <div className="space-y-6">
                   {contactInfo.map((info, index) => {
@@ -345,7 +345,7 @@ const Contact = () => {
                         Thank you!
                       </h4>
                       <p className="text-muted-foreground">
-                        Your message has been sent successfully. I'll get back to you soon!
+                        Your message has been sent successfully. I&apos;ll get back to you soon!
                       </p>
                     </motion.div>
                   ) : (
@@ -485,7 +485,7 @@ const Contact = () => {
               animate={{ opacity: [0.7, 1, 0.7] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
-              Let's build something amazing together!
+              Let&apos;s build something amazing together!
             </motion.p>
           </motion.div>
         </motion.div>

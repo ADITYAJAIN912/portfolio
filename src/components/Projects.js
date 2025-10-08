@@ -53,7 +53,7 @@ const Projects = () => {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [mockProjects]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
